@@ -22,67 +22,86 @@
             <span id="tagline">Git y Github</span>
         </div>
         <div id="post">
-            <h1>Alumn@: [Nombre Completo]</h1>
+            <h1>Alumn@: Antonio José Mérida</h1>
             <ol>
                 <li>
                     <h3>¿Que es un sistema de control de versiones?</h3>
-                    [Pon tu respuesta]
+                    ESTO ES UN CAMBIO QUE ESTOY HACIENDO EN EL EJERCICIO TAL.
+                    
+                    Un sistema de control de versiones (VCS, por sus siglas en inglés, Version Control System) es una herramienta que ayuda a 
+                      los equipos de desarrollo de software a gestionar los cambios en el código fuente a lo largo del tiempo. 
                 </li>
                 <li>
                     <h3>¿Cual es la diferencia entre git y github?</h3>
-                    [Pon tu respuesta]
+                    Git es un sistema de control de versiones distribuido de código abierto diseñado para manejar todo, desde proyectos pequeños hasta muy grandes, con rapidez y eficiencia. Fue creado por Linus Torvalds en 2005 para el desarrollo del kernel de Linux. Git permite a los desarrolladores llevar un registro de los cambios en su código, colaborar con otros desarrolladores de manera eficiente, y mantener un historial completo y detallado de todos los cambios realizados en el código de un proyecto.
+                    Mientras GitHub es una plataforma de desarrollo colaborativo basada en la web que utiliza Git para control de versiones. Facilita la colaboración entre desarrolladores permitiendo almacenar repositorios de Git en la nube, revisar código, gestionar proyectos y construir software junto a millones de desarrolladores.
+                    En resumen, Git es el sistema de control de versiones, mientras que GitHub es una plataforma que utiliza Git para alojar repositorios y facilitar la colaboración en proyectos de desarrollo de software.
+
                 </li>
                 <li>
                     <h3>¿Cómo creo una rama en git?</h3>
-                    [Pon tu respuesta]
+                        Con el comando git branch {nombre de la rama}
                 </li>
                 <li>
                     <h3>¿Cómo clono un repositorio?</h3>
-                    [Pon tu respuesta]
+                    Con el comando git clone [URL del repositorio]
                 </li>
                 <li>
                     <h3>¿Cómo puedo bajar los ultimos cambios de un repositorio?</h3>
-                    [Pon tu respuesta]
+                    Con git pull [alias] [rama]: Actualiza tu repositorio local con los cambios desde el repositorio remoto. 
                 </li>
                 <li>
                     <h3>¿Cómo puedo gener un tag?</h3>
-                    [Pon tu respuesta]
+                    Escribiendo el comando git tag. En Git, un "tag" (etiqueta) es una manera de asignar un nombre descriptivo y permanente a un punto específico en la historia del repositorio.
+                    Cuando creas un tag en Git, estás creando una referencia fácilmente reconocible y accesible a un punto específico en la historia de tu proyecto.
                 </li>
                 <li>
                     <h3>Cómo hago una mezcla de ramas?</h3>
-                    [Pon tu respuesta]
+                    Con el comando  git merge podré fusionar ramas de mi proyecto. 
                 </li>
                 <li>
                     <h3>¿Cómo puedo moverme a un commit especifico?</h3>
-                    [Pon tu respuesta]
+                    Para cambiar de una rama a otra usaré el comando git checkout [nombre-rama]
+                      
+                    Hay que tener en cuenta que hacer un commit en Git es hacer un registro de cambios en el repositorio.
+                      Cada commit en Git tiene asociado un identificador único (SHA-1 hash) que lo distingue de otros commits.
+                    Cuando realizas un commit en Git, estás guardando los cambios que has hecho en tus archivos en ese momento específico. 
+                      Esto incluye agregar nuevos archivos, modificar archivos existentes o eliminar archivos. 
+                      Además, cada commit generalmente incluye un mensaje descriptivo que resume los cambios realizados en ese commit, 
+                      lo que ayuda a otros colaboradores a entender qué se ha modificado y por qué.
                 </li>
                 <li>
                     <h3>¿Cómo puedo borrar una rama?</h3>
-                    [Pon tu respuesta]
+                    Con el comando git branch -d {nombre-rama}
                 </li>
                 <li>
                     <h3>¿Cómo puedo borrar un tag?</h3>
-                    [Pon tu respuesta]
+                    git branch -d <nombre_de_la_rama>
                 </li>
                 <li>
                     <h3>¿Cómo puedo ver los cambios que estan por enviarse al repositorio?</h3>
-                    [Pon tu respuesta]
+                    Con git diff --staged
+                    Aunque "git show" también nos mostrará los cambios que han existido sobre un archivo.
                 </li>
                 <li>
                     <h3>¿Para que sirve el comando <em>git remote -v?</em></h3>
-                    [Pon tu respuesta]
+                    Al ejecutar git remote -v, obtendrás una lista de todos los repositorios remotos que están configurados para tu repositorio local, 
+                    así como las URLs asociadas a cada uno de ellos.
                 </li>
                 <li>
                     <h3>¿Cómo le digo a git cual es mi email y correo?</h3>
-                    [Pon tu respuesta]
+                    Usando git config --global user.name "Tu Nombre", para saber mi nombre
+                    Y usando  y $ git config --global user.email johndoe@example.com, para configurar mi correo
                 </li>
                 <li>
                     <h3>¿Cuales son los pasos para conectar git con github?</h3>
-                    [Pon tu respuesta]
+                    Crearemos el repositorio con git init y posteriormente navegaremos al directorio donde deseas clonar el repositorio de GitHub, 
+                    Empuja tus cambios a GitHub: Una vez que hayas realizado tus cambios y commits, puedes empujarlos a GitHub utilizando el comando git push
                 </li>
                 <li>
                     <h3>¿Cómo puedo crear un alias en git?</h3>
-                    [Pon tu respuesta]
+                    Usando la siguiente línea:
+                    git config --global alias.tree "log --graph --decorate --all --oneline"
                 </li>
             </ol>
         </div>
